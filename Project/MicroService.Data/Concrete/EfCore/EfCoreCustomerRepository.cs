@@ -22,12 +22,20 @@ namespace MicroService.Data.Concrete.EfCore
             {
                 return false;
             }
-            
+
         }
 
         public bool validate(string key)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(key);
+                return addr.Address == key;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
