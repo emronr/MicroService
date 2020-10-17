@@ -71,11 +71,11 @@ namespace MicroService.CustomerAPI.Controllers
         {
             try
             {
-                if (_customerService.validate(model.Email))
+                if (!_customerService.validate(model.Email))
                 {
                     return StatusCode(StatusCodes.Status204NoContent, model);
                 }
-                
+
                 model.CreatedAt = DateTime.Now.ToString();
                 model.UpdatedAt = DateTime.Now.ToString();
                 Random rnd = new Random();
@@ -112,7 +112,7 @@ namespace MicroService.CustomerAPI.Controllers
         {
             try
             {
-                if (_customerService.validate(model.Email))
+                if (!_customerService.validate(model.Email))
                 {
                     return StatusCode(StatusCodes.Status204NoContent, model);
                 }
@@ -136,7 +136,7 @@ namespace MicroService.CustomerAPI.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status204NoContent, ex);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
 
             }
         }
