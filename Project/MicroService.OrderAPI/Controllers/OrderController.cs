@@ -108,8 +108,15 @@ namespace MicroService.OrderAPI.Controllers
                 };
 
                 string ok = _orderService.Create(entity);
+                if (ok == "created")
+                {
+                    return StatusCode(StatusCodes.Status201Created, entity);
 
-                return StatusCode(StatusCodes.Status201Created, entity);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, model);
+                }
             }
             catch (Exception ex)
             {
@@ -191,7 +198,7 @@ namespace MicroService.OrderAPI.Controllers
                 }
                 else
                 {
-                    return StatusCode(StatusCodes.Status204NoContent,model);
+                    return StatusCode(StatusCodes.Status204NoContent, model);
                 }
 
             }
