@@ -1,0 +1,14 @@
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Business.deps.json
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Business.dll
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Business.pdb
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.csprojAssemblyReference.cache
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.AssemblyInfoInputs.cache
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.AssemblyInfo.cs
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.csproj.CoreCompileInputs.cache
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.dll
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.pdb
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Data.dll
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Entities.dll
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Entities.pdb
+D:\Tesodev\Project\MicroService.Business\bin\Debug\netcoreapp3.1\MicroService.Data.pdb
+D:\Tesodev\Project\MicroService.Business\obj\Debug\netcoreapp3.1\MicroService.Business.csproj.CopyComplete

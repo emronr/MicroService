@@ -1,0 +1,9 @@
+D:\Tesodev\Project\MicroService.Entities\bin\Debug\netcoreapp3.1\MicroService.Entities.deps.json
+D:\Tesodev\Project\MicroService.Entities\bin\Debug\netcoreapp3.1\MicroService.Entities.dll
+D:\Tesodev\Project\MicroService.Entities\bin\Debug\netcoreapp3.1\MicroService.Entities.pdb
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.csprojAssemblyReference.cache
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.AssemblyInfoInputs.cache
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.AssemblyInfo.cs
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.csproj.CoreCompileInputs.cache
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.dll
+D:\Tesodev\Project\MicroService.Entities\obj\Debug\netcoreapp3.1\MicroService.Entities.pdb

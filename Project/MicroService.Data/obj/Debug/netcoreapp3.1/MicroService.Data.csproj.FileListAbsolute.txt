@@ -1,0 +1,15 @@
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Data.deps.json
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Data.runtimeconfig.json
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Data.runtimeconfig.dev.json
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Data.dll
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Data.pdb
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Entities.dll
+D:\Tesodev\Project\MicroService.Data\bin\Debug\netcoreapp3.1\MicroService.Entities.pdb
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.csprojAssemblyReference.cache
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.AssemblyInfoInputs.cache
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.AssemblyInfo.cs
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.csproj.CoreCompileInputs.cache
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.csproj.CopyComplete
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.dll
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.pdb
+D:\Tesodev\Project\MicroService.Data\obj\Debug\netcoreapp3.1\MicroService.Data.genruntimeconfig.cache
