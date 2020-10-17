@@ -44,7 +44,7 @@ namespace MicroService.CustomerAPI.Controllers
             {
 
                 var entity = _customerService.GetById(id.ToString());
-                if(entity == null)
+                if (entity == null)
                 {
                     return StatusCode(StatusCodes.Status204NoContent);
                 }
@@ -85,7 +85,15 @@ namespace MicroService.CustomerAPI.Controllers
 
                 string ok = _customerService.Create(entity);
 
-                return StatusCode(StatusCodes.Status201Created, entity);
+                if (ok == "created")
+                {
+                    return StatusCode(StatusCodes.Status201Created, entity);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, model);
+
+                }
             }
             catch (Exception ex)
             {
@@ -105,8 +113,15 @@ namespace MicroService.CustomerAPI.Controllers
                 entity.Email = model.Email;
                 entity.UpdatedAt = DateTime.Now;
 
-                _customerService.Update(entity);
-                return StatusCode(StatusCodes.Status200OK, model);
+                if (_customerService.Update(entity))
+                {
+                    return StatusCode(StatusCodes.Status200OK, model);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, model);
+
+                }
 
             }
             catch (Exception ex)
@@ -128,7 +143,7 @@ namespace MicroService.CustomerAPI.Controllers
                     return StatusCode(StatusCodes.Status200OK, items.Customers.ToList());
                 }
 
-               return StatusCode(StatusCodes.Status204NoContent);
+                return StatusCode(StatusCodes.Status204NoContent);
 
 
             }
