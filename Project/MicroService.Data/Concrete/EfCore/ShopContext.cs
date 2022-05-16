@@ -8,7 +8,7 @@ namespace MicroService.Data.Concrete.EfCore
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source =DESKTOP-H7362TJ\SQLEXPRESS; Database=MicroServiceDb; integrated security=true; User Id=sa; Password=160201070;");
+            optionsBuilder.UseSqlServer(@"Data Source =DESKTOP-H7362TJ\SQLEXPRESS; Database=MicroServiceDb; integrated security=true;");
         }
         public DbSet<Orders> Orders { get; set; }
         public DbSet<Customers> Customers { get; set; }
